@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.form-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:0.8px solid cyan;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30vw;
+    height: 60vh;
+
+}
+.labelInput{
+    display: block;
+}
+form{
+    display: block;
+}
+input{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 16vw;
+}
+.back_Link{
+   color: cyan;
+   text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
